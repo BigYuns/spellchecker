@@ -16,7 +16,8 @@ int main(int argc, char *argv[]) {
 
     // construct spellChecker object given a dictionary
     // TODO: substitute with a valid spellchecker
-    FakeSpellChecker checker(ENG_DICT_FILE);
+    //FakeSpellChecker checker(ENG_DICT_FILE);
+    SpellChecker checker(ENG_DICT_FILE); 
 
     // check the word
     string wordToCheck(argv[1]);
